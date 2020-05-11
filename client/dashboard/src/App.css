@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  background: #23272A;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.block__body {
+  padding: 30px;
+  background: #2C2F33;
+  border-radius: 0 0 5px 5px;
+}
+
+.block__footer {
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.login-button {
+  text-decoration: none;
+  display: block;
+  line-height: 35px;
+  padding: 0 21px;
+  background: #7289DA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background: #697ec4;
+  cursor: pointer;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+
+.success__header {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.success__data {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.logout {
+  position: fixed;
+  right:20px;
+  top:20px;
+
+}
+.grid {
+  margin-bottom: 40px;
+}
+
+.welcome{
+  position: fixed;
+  left:20px;
+  top:20px;
+}
+
+.inputDate input{
+  float:left;
+}
