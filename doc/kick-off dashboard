@@ -1,0 +1,27 @@
+Hello, pour ceux qui ont raté le kick-off dashboard :
+
+Préparer une liste des services et des widgets à utiliser.
+
+/!\ pour Facebook et Twitter, demande beaucoup de choses pour creer un compte développeur donc ca peut demander beaucoup de temps (demande validation de la part des services, groso merdo 1 semaine d'attente).
+
+Réaliser un dashboard, mettre en commun des services
+Réaliser un état de l'art et de POC (listing des services intéressant à mettre en place).
+
+Parti évaluation : Nombre de fonctionnalités dépend de la taille du groupe donc groso merdo : 9 widgets et 4 services pour 3 personnes (Widget -> 3*nb personne, Service 1+nb personnes).
+
+Service : google, météo, yammer, Epitech
+Widget : fonctionnalité proposé (upload fichier, donner la température à Strasbourg)
+
+Le coeur du projet : creer une application qui réunit tous ses services dans une chose simple d'utilisation pour que l'user gère ses services
+
+User management : authentification Oauth2, sinon aucune contrainte, le user a la capacité de manager son dashboard comme il veut. Pas d'admin
+
+Comment se connecter aux services ? Quels services utilisés ? Regarder les pré-requis pour utiliser les services
+
+On peut mettre des Widgets qui ne demandent pas de connexion.
+
+Pré-requis : Docker, about.json, documentation
+
+about.json : une page qui renvoie les infos sur les services et widgets.
+
+Choix des technos : envoyer un teams à Erwan
